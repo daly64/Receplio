@@ -12,14 +12,19 @@ val expressWay = FontFamily(Font(R.font.expressway, weight = FontWeight.Normal))
 val expressWayBold = FontFamily(Font(R.font.expressway, weight = FontWeight.Bold))
 
 // Set of Material typography styles to start with
+
 val Typography = Typography(
     body1 = TextStyle(
         fontFamily = expressWay,
-        fontSize = 16.sp
+        fontSize = 16.sp,
+        color = secondaryColor,
+        letterSpacing = 0.5.sp
     ),
-    h1 = TextStyle(
+    h6 = TextStyle(
         fontFamily = expressWayBold,
-        fontSize = 32.sp
+        color = mainTextColor,
+        fontSize = 20.sp,
+        letterSpacing = 0.15.sp
     )
     /* Other default text styles to override
     button = TextStyle(
