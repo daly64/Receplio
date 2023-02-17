@@ -27,7 +27,8 @@ onSurface = Color.Black,
 private val ColorPalette = lightColors(
     primary = mainColor,
     primaryVariant = mainTextColor,
-    secondary = secondaryColor
+    secondary = secondaryColor,
+    background=whiteColor
 )
 
 @Composable
