@@ -26,8 +26,8 @@ onSurface = Color.Black,
 
 private val ColorPalette = lightColors(
     primary = mainColor,
-    primaryVariant = mainTextColor,
-    secondary = secondaryColor,
+    primaryVariant = darkMainColor,
+    secondary = lightMainColor,
     background=whiteColor
 )
 

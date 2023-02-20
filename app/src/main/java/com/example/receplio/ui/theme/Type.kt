@@ -17,12 +17,12 @@ val Typography = Typography(
     body1 = TextStyle(
         fontFamily = expressWay,
         fontSize = 16.sp,
-        color = secondaryColor,
+        color = blackColor,
         letterSpacing = 0.5.sp
     ),
     h6 = TextStyle(
         fontFamily = expressWayBold,
-        color = mainTextColor,
+        color = blackColor,
         fontSize = 20.sp,
         letterSpacing = 0.15.sp
     )

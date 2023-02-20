@@ -12,10 +12,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.receplio.ui.theme.Shapes
-import com.example.receplio.ui.theme.Typography
-import com.example.receplio.ui.theme.cardBackgroundColor
-import com.example.receplio.ui.theme.secondaryColor
+import com.example.receplio.ui.theme.*
 
 
 @Composable
@@ -27,7 +24,7 @@ fun RecipeCard() {
             .padding(10.dp)
             .height(100.dp),
         shape = Shapes.large,
-        backgroundColor = cardBackgroundColor
+        backgroundColor = lightMainColor
     )
     {
         Row(modifier = Modifier.padding(10.dp)) {
@@ -78,7 +75,7 @@ fun RecipeCard() {
                     painter = painterResource(id = R.drawable.arrow_down),
                     contentDescription = "arrow down",
                     Modifier.fillMaxSize(),
-                    tint = secondaryColor
+                    tint = blackColor
                 )
             }
         }
