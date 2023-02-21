@@ -1,4 +1,4 @@
-package com.example.receplio
+package com.example.receplio.components
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
@@ -12,6 +12,8 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.example.receplio.R
+import com.example.receplio.elements.SquareImage
 import com.example.receplio.ui.theme.*
 
 
@@ -28,17 +30,7 @@ fun RecipeCard() {
     )
     {
         Row(modifier = Modifier.padding(10.dp)) {
-            Card(
-                modifier = Modifier.size(80.dp),
-                shape = Shapes.medium,
-            ) {
-                Image(
-                    painter =
-                    painterResource(id = R.drawable.sandwich),
-                    contentDescription = "sandwich",
-                    contentScale = ContentScale.FillBounds
-                )
-            }
+            SquareImage(R.drawable.sandwich,80.dp)
             Column(
                 modifier = Modifier
                     .padding(5.dp, 10.dp, 0.dp, 0.dp)

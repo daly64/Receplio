@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Column
+import com.example.receplio.components.RecipeCard
 import com.example.receplio.ui.theme.ReceplioTheme
 
 class MainActivity : ComponentActivity() {
